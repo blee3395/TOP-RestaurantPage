@@ -1,3 +1,139 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: 4%;
+  gap: 25px;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  color: rgb(68, 68, 53);
+
+  background-color: transparent;
+
+  border: none;
+
+}
+
+.btn:hover {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+  background-color: rgba(245, 245, 220, 0.9);
+
+  position:sticky;
+  
+}
+
 .logo {
-    width: 80%;
+    height: 75px;
+
+    background-color: rgba(248, 248, 238, 0.85);
+    box-shadow: 0 0 10px 10px rgba(248, 248, 238, 0.8);
+    margin:10px;
+}
+
+.intro {
+    background-color: white;
+    color: rgb(68, 68, 53);
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    gap: 8px;
+
+
+}
+
+.headline {
+  font-size: 44px;
+}
+
+.motto {
+  font-style: italic;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.homeImg {  
+  width: 95%;
+  margin-bottom: 2%;
+}
+
+.star {
+  height: 50px;
+  
+}
+
+.quote {
+  font-size: 40px;
+  font-weight: 900;
+
+  font-family: 'Raleway', sans-serif;
+  color: rgb(68, 68, 53);
+
+  font-style: italic;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quote.text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.review {
+  font-style: italic;
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 10px;
 }
